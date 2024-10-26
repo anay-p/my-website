@@ -7,7 +7,7 @@ export class BackendService {
   constructor(private http: HttpClient) {}
 
   getMessage(): Observable<string> {
-    return this.http.get('http://localhost:8080/api/message', {responseType: 'text'});
+    return this.http.get('https://my-website-30.el.r.appspot.com/api/message', {responseType: 'text'});
   }
 
 }
