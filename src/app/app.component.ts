@@ -4,7 +4,7 @@ import { BackendService } from './backend.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styles: []
+  styleUrl: './app.component.css'
 })
 export class AppComponent {
   title: string = 'my-website';

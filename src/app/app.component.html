@@ -1,3 +1,6 @@
-<h1>We're just having fun around here.</h1>
-<button style="margin-right: 10px;" (click)="getBackendMessage()">Backend</button>
-<ng-container *ngIf="message">Backend says: {{ message }}</ng-container>
+<div class="flex justify-content-center mt-4">
+    <p-inputGroup class="w-6 min-w-20rem">
+        <input type="text" pInputText placeholder="Enter Hindi word in Devanagari" />
+        <button type="button" pButton icon="pi pi-search"></button>
+    </p-inputGroup>
+</div>
